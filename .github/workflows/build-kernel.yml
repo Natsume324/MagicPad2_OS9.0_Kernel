@@ -58,5 +58,5 @@ jobs:
         with:
           name: Image-GKI
           path: |
-          out/arch/arm64/boot/Image
-          out/arch/arm64/boot/Image.gz
+            out/arch/arm64/boot/Image
+            out/arch/arm64/boot/Image.gz
