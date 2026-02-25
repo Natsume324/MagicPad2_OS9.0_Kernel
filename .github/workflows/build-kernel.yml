@@ -102,4 +102,4 @@ jobs:
             out/arch/arm64/boot/Image
             out/arch/arm64/boot/dtbo*.img
             build.log
-          if-no-files-found: warns
+          if-no-files-found: warn
