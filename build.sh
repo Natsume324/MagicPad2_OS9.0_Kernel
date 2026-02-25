@@ -4,7 +4,7 @@ set -e
 # 清理旧输出
 rm -rf out build.log
 mkdir -p out
-
+export KCFLAGS="--rtlib=compiler-rt"
 echo "--- 正在配置内核 ---"
 make ARCH=arm64 O=out \
     HOSTCC=gcc HOSTLD=ld \
