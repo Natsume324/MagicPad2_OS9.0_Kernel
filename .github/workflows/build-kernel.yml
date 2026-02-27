@@ -46,7 +46,7 @@ jobs:
           
           # 3. 配置并编译
           # 假设你的 defconfig 是 gki_defconfig，如果不是请修改
-          make O=out gki_defconfig
+          make O=out merge_pineapple_defconfig
           make -j$(nproc) O=out \
                CC=clang \
                LD=ld.lld \
